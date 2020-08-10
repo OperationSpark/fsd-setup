@@ -10,7 +10,7 @@ Instructions for github repository go here
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/create-workspace-gitpod.png?raw=true">
 
-1. Go to: <a href=gitpod.io>gitpod.io</a>
+1. Go to: <a href=https://gitpod.io>gitpod.io</a>
 2. Scroll down to "Get Started" (see above)
 3. Paste your GitHub url in the space
 4. Click on **Start Workspace**
@@ -46,11 +46,11 @@ Workspace --> Share Running Workspace
 
 ## To Push Code
 
-Go to: gipod.io/access-control
+Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/authorize-github-push.png?raw=true">
 
-Check the write public repos box (see the picture above below)
+Check the **"write public repos"** box (see the picture above below)
 
 Return to your workspace and find the bash terminal.
 
