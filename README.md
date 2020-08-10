@@ -9,10 +9,12 @@ Instructions for github repository go here
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/create-workspace-gitpod.png?raw=true">
 
-1. Go to: gitpod.io 
-2. scroll down to "Get Started" (see above)
-3. Paste your GitHub url to create a workspace
-4. Pin the workspace
+1. Go to: <a href=gitpod.io>gitpod.io</a>
+2. Scroll down to "Get Started" (see above)
+3. Paste your GitHub url in the space to create a workspace
+4. Pin the workspace (see below)
+
+-- insert pin workspace image here -- 
 
 # Install your projects
 
