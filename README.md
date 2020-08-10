@@ -1,8 +1,12 @@
-# Create a GitHub repository
+# Set up your Github / Gitpod Workspace
+
+Below, you will find instructions for creating a github repository and setting up your Gitpod workspace. Read all instructions carefully before moving on. If you get stuck, encounter an issue, or simply need help, reach out to your instructor immediately.
+
+## 1) Create a GitHub repository 
 
 Instructions for github repository go here
 
-## Create a Gitpod Workspace
+## 2) Create a Gitpod Workspace
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/create-workspace-gitpod.png?raw=true">
 
@@ -11,22 +15,24 @@ Instructions for github repository go here
 3. Paste your GitHub url in the space
 4. Click on **Start Workspace**
 
-## Install your projects
+## 3) Install your projects
+
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/bash-terminal.png?raw=true">
 
 With your workspace open, find bash terminal and enter these commands (see above)
-* `git clone operationspark/setupScript`
+* `git clone https://github.com/OperationSpark/fsd-setup.git`
 * `npm install -g opspark`
 * `chmod +x script/setup.sh`
 * `./script/setup.sh`
 
 Enter your username and your password.
 
-## Pin Your workspace
+## 4) Pin Your workspace
 
 1. Go to <a href=https://gitpod.io/workspaces/>https://gitpod.io/workspaces/</a>
 2. Click on the Pin icon next to your workspace (see below) 
 
--- insert pin workspace image here -- 
+<img src="https://github.com/OperationSpark/fsd-setup/blob/master/pin-workspace.png?raw=true">
 
 # Other useful features of Gitpod
 
