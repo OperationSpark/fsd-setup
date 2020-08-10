@@ -7,7 +7,7 @@ Instructions for github repository go here
 
 # Create a Gitpod Workspace
 
--- insert image here --
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/create-workspace-gitpod.png?raw=true">
 
 1. Go to: gitpod.io 
 2. scroll down to "Get Started" (see above)
