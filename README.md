@@ -4,7 +4,34 @@ Below, you will find instructions for creating a github repository and setting u
 
 ## 1) Create a GitHub repository 
 
-Instructions for github repository go here
+Click here to open a new browser tab and create create a new GitHub repository:
+<a href="https://github.com/new" target="_blank">Right Click --> Open Link In New Tab </a>.
+
+### NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forwarded to the _create new repository_ page.
+
+Follow these steps and see the screenshot below to create a new repository.
+
+**Click to enlarge image**
+<img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-repo.png">
+
+1. On the Create New Repository page, in the box for **Repository name**, name the repository like:
+
+    `your-github-username.github.io`
+    
+    replacing `your-github-username` with you actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems **(See A)**.
+    
+
+2. Enter a description for your repository in the **Description** box, like `My own awesome website!' **(See B)**.
+
+3. Select the **Public** radio button to allow anyone to see this repository **(See C)**.
+
+4. Check the **Initialize this repository with a README** box **(See D)**.
+
+5. Click the **Add .gitignore** button, and Search for "Node". Click on "Node" from the dropdown. **(See E)**.
+    
+6. Double check that you have followed these instructions properly. Then click **Create Repository** **(See F)**.
+
+Awesome, you created your repository!
 
 ## 2) Create a Gitpod Workspace
 
@@ -34,6 +61,14 @@ Enter your username and your password.
 
 <img src="https://github.com/OperationSpark/fsd-setup/blob/master/pin-workspace.png?raw=true">
 
+## 5) Allow Push Access
+
+Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
+
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/authorize-github-push.png?raw=true">
+
+Check the **"write public repos"** box (see the picture above below)
+
 # Other useful features of Gitpod
 
 ## To Preview Your Code
@@ -46,15 +81,11 @@ Workspace --> Share Running Workspace
 
 ## To Push Code
 
-Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
-
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/authorize-github-push.png?raw=true">
-
-Check the **"write public repos"** box (see the picture above below)
-
 Return to your workspace and find the bash terminal.
 
 Then, enter these commands
 `git add .`
+
 `git commit -m "describe your changes here"`
+
 `git push`
