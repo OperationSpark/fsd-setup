@@ -84,6 +84,7 @@ Workspace --> Share Running Workspace
 Return to your workspace and find the bash terminal.
 
 Then, enter these commands
+
 `git add .`
 
 `git commit -m "describe your changes here"`
