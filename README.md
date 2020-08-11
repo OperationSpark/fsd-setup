@@ -2,6 +2,13 @@
 
 Below, you will find instructions for creating a github repository and setting up your Gitpod workspace. Read all instructions carefully before moving on. If you get stuck, encounter an issue, or simply need help, reach out to your instructor immediately.
 
+## 0) Pre-requisites:
+
+Before continuing on to the next steps, make sure that you have done the following:
+* Created an Account on Greenlight
+* Created an Account on Github
+* Joined the Operation Spark Github Team. You can find your invitation to join this team by going to github.com/OperationSpark.
+
 ## 1) Create a GitHub repository 
 
 Click here to open a new browser tab and create create a new GitHub repository:
