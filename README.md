@@ -59,6 +59,7 @@ With your workspace open, find bash terminal and enter these commands one at a t
 * `npm install -g opspark`
 * `chmod +x fsd-setup/setup.sh`
 * `./fsd-setup/setup.sh`
+* `rm -rf ./fsd-setup
 
 Enter your username and your password.
 
