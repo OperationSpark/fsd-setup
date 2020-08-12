@@ -43,7 +43,7 @@ Awesome, you created your repository!
 
 ## 2) Create a Gitpod Workspace
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/create-workspace-gitpod.png?raw=true">
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/create-workspace-gitpod.png?raw=true">
 
 1. Go to: <a href=https://gitpod.io>gitpod.io</a>
 2. Scroll down to "Get Started" (see above)
@@ -52,7 +52,7 @@ Awesome, you created your repository!
 
 ## 3) Install your projects
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/bash-terminal.png?raw=true">
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/bash-terminal.png?raw=true">
 
 With your workspace open, find bash terminal and enter these commands one at a time (see above)
 * `git clone https://github.com/OperationSpark/fsd-setup.git`
@@ -68,13 +68,13 @@ Enter your username and your password.
 1. Go to <a href=https://gitpod.io/workspaces/>https://gitpod.io/workspaces/</a>
 2. Click on the Pin icon next to your workspace (see below) 
 
-<img src="https://github.com/OperationSpark/fsd-setup/blob/master/pin-workspace.png?raw=true">
+<img src="https://github.com/OperationSpark/fsd-setup/blob/master/img/pin-workspace.png?raw=true">
 
 ## 5) Allow Push Access
 
 Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/authorize-github-push.png?raw=true">
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/authorize-github-push.png?raw=true">
 
 Check the **"write public repos"** box (see the picture above below)
 
@@ -87,6 +87,8 @@ Right Click on `index.html` of the project you are working on and select "Previe
 ## To Share your Code
 
 Workspace --> Share Running Workspace
+
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/share-workspace.png?raw=true">
 
 ## To Push Code
 
