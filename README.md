@@ -58,7 +58,7 @@ With your workspace open, find bash terminal and enter these commands one at a t
 * `git clone https://github.com/OperationSpark/fsd-setup.git`
 * `npm install -g opspark`
 * `chmod +x fsd-setup/setup.sh`
-* `./script/setup.sh`
+* `./fsd-setup/setup.sh`
 
 Enter your username and your password.
 
