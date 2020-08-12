@@ -54,7 +54,7 @@ Awesome, you created your repository!
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/bash-terminal.png?raw=true">
 
-With your workspace open, find bash terminal and enter these commands (see above)
+With your workspace open, find bash terminal and enter these commands one at a time (see above)
 * `git clone https://github.com/OperationSpark/fsd-setup.git`
 * `npm install -g opspark`
 * `chmod +x script/setup.sh`
