@@ -81,8 +81,11 @@ Check the **"write public repos"** box (see the picture above below)
 # Other useful features of Gitpod
 
 ## To Preview Your Code
-Install Live Server
-Right Click on `index.html` of the project you are working on and select "Preview with Live Server"
+
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/install-live-server.png?raw=true">
+
+1. Install Live Server (see above)
+2. Right Click on `index.html` of the project you are working on and select "Preview with Live Server"
 
 ## To Share your Code
 
