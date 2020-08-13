@@ -6,8 +6,8 @@ mkdir projects
 cd projects
 
 git clone https://${username}:${password}@github.com/operationspark/circularity
-git clone https://github.com/operationspark/platformer
-git clone https://github.com/operationspark/bouncing-box
+git clone https://${username}:${password}@github.com/operationspark/platformer
+git clone https://${username}:${password}@github.com/operationspark/bouncing-box
 
 cd platformer
 rm -rf .git* .master
