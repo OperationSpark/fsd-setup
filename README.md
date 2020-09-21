@@ -93,6 +93,10 @@ Workspace --> Share Running Workspace
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/share-workspace.png?raw=true">
 
+## Set up Auto Save
+
+File --> Auto Save
+
 ## To Push Code
 
 Return to your workspace and find the bash terminal.
