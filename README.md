@@ -76,7 +76,7 @@ Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/authorize-github-push.png?raw=true">
 
-Check the **"write public repos"** box (see the picture above below)
+Check all of the boxes under **Github** and save your preferences.
 
 # Other useful features of Gitpod
 
