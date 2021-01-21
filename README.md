@@ -49,7 +49,15 @@ Awesome, you created your repository!
 3. Paste your GitHub url in the space
 4. Click on **Start Workspace**
 
-## 3) Install your projects
+## 3) Allow GitHub Access
+
+Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
+
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/authorize-github-push.png?raw=true">
+
+Check all of the boxes under **Github** and save your preferences.
+
+## 4) Install your projects
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/bash-terminal.png?raw=true">
 
@@ -62,20 +70,12 @@ With your workspace open, find bash terminal and enter these commands one at a t
 
 Enter your username and your password.
 
-## 4) Pin Your workspace
+## 5) Pin Your workspace
 
 1. Go to <a href=https://gitpod.io/workspaces/>https://gitpod.io/workspaces/</a>
 2. Click on the Pin icon next to your workspace (see below) 
 
 <img src="https://github.com/OperationSpark/fsd-setup/blob/master/img/pin-workspace.png?raw=true">
-
-## 5) Allow Push Access
-
-Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
-
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/authorize-github-push.png?raw=true">
-
-Check all of the boxes under **Github** and save your preferences.
 
 # Other useful features of Gitpod
 
