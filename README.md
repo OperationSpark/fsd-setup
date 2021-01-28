@@ -43,11 +43,12 @@ Awesome, you created your repository!
 
 <img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/create-workspace-gitpod.png?raw=true">
 
-0. Click the green "Code" button on your repository and copy the displayed URL
-1. Go to: <a href=https://gitpod.io>gitpod.io</a>
-2. Scroll down to "Get Started" (see above)
-3. Paste your GitHub url in the space
-4. Click on **Start Workspace**
+0. Click the green "Code" button on your repository and copy the displayed URL using the clipboard
+1. In your internet browser, type the prefix **gitpod.io/#** followed immediately by the code to your respository URL (The URL you create should look similar to the screenshot above, the only difference being you are using your unique link to your repository)
+2. Click enter
+<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/gitpod.png?raw=true">
+3. On the next screen (shown above), click on **Login with Github & Launch Workspace**
+4. Sign in using your Github credentials on the next screen
 
 ## 3) Allow GitHub Access
 
