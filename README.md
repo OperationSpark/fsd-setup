@@ -56,11 +56,13 @@ Click the green "Code" button on your repository on Github and copy the displaye
 
 ## 3) Allow GitHub Access
 
-Go to: <a href=https://gitpod.io/integrations>gitpod.io/integrations</a>
+Go to: <a href=https://gitpod.io/integrations>gitpod.io/integrations</a> and edit permissions for Github (see image below).
 
 <img style="width: 400px" src="img/authorize-github.png">
 
-Check all of the boxes under **Github** and save your preferences.
+Check all of the boxes and update your permissions.
+
+<img style="width: 400px" src="img/edit-permissions-github.png">
 
 ## 4) Install your projects
 
@@ -78,7 +80,7 @@ Enter your username and your password.
 ## 5) Pin Your workspace
 
 1. Go to <a href=https://gitpod.io/workspaces>https://gitpod.io/workspaces</a>
-2. Click on the Pin icon next to your workspace (see below) 
+2. Click on the Pin icon next to your workspace (see red arrows below). If your workspace is not showing, click the filter button and select all (see the blue arrow below) and then pin your workspace.
 
 <img src="img/pin-workspace.png">
 
