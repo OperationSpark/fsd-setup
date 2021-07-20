@@ -26,7 +26,7 @@ Follow these steps and see the screenshot below to create a new repository.
 
     `your-github-username.github.io`
     
-    replacing `your-github-username` with you actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems.
+    replacing `your-github-username` with your actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems.
     
 
 2. Enter a description for your repository in the **Description** box, like `My own awesome website!'.
@@ -49,20 +49,24 @@ Click the green "Code" button on your repository on Github and copy the displaye
 
 1. In your internet browser, type the prefix **gitpod.io/#** followed immediately by the code to your respository URL (The URL you create should look similar to the screenshot above, the only difference being you are using your unique link to your repository)
 2. Click enter
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/gitpod.png?raw=true">
-3. On the next screen (shown above), click on 'Login with Github & Launch Workspace'. You will sign in using your Github credentials on the next screen
+
+<img style="width: 400px" src="img/gitpod.png">
+
+3. On the next screen (shown above), click on 'Continue with Github'. You will sign in using your Github credentials on the next screen
 
 ## 3) Allow GitHub Access
 
-Go to: <a href=https://gitpod.io/access-control>gitpod.io/access-control</a>
+Go to: <a href=https://gitpod.io/integrations>gitpod.io/integrations</a> and edit permissions for Github (see image below).
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/authorize-github-push.png?raw=true">
+<img style="width: 400px" src="img/authorize-github.png">
 
-Check all of the boxes under **Github** and save your preferences.
+Check all of the boxes and update your permissions.
+
+<img style="width: 400px" src="img/edit-permissions-github.png">
 
 ## 4) Install your projects
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/bash-terminal.png?raw=true">
+<img style="width: 400px" src="img/bash-terminal.png">
 
 With your workspace open, find bash terminal and enter these commands one at a time (see above)
 * `git clone https://github.com/OperationSpark/fsd-setup.git`
@@ -75,16 +79,16 @@ Enter your username and your password.
 
 ## 5) Pin Your workspace
 
-1. Go to <a href=https://gitpod.io/workspaces/>https://gitpod.io/workspaces/</a>
-2. Click on the Pin icon next to your workspace (see below) 
+1. Go to <a href=https://gitpod.io/workspaces>https://gitpod.io/workspaces</a>
+2. Click on the Pin icon next to your workspace (see red arrows below). If your workspace is not showing, click the filter button and select all (see the blue arrow below) and then pin your workspace.
 
-<img src="https://github.com/OperationSpark/fsd-setup/blob/master/img/pin-workspace.png?raw=true">
+<img src="img/pin-workspace.png">
 
 # Other useful features of Gitpod
 
 ## To Preview Your Code
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/install-live-server.png?raw=true">
+<img style="width: 400px" src="img/install-live-server.png">
 
 1. Install Live Server (see above)
 2. Right Click on `index.html` of the project you are working on and select "Preview with Live Server"
@@ -93,7 +97,7 @@ Enter your username and your password.
 
 Workspace --> Share Running Workspace
 
-<img style="width: 400px" src="https://github.com/OperationSpark/fsd-setup/blob/master/img/share-workspace.png?raw=true">
+<img style="width: 400px" src="img/share-workspace.png">
 
 ## Set up Auto Save
 
