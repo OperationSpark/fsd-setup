@@ -2,7 +2,11 @@
 read -p "Enter Your GitHub Username: "  username
 read -s -p "Enter Your GitHub Password: "  password
 
+if test -e projects; then
+    rm -rf projects
+fi
 mkdir projects
+
 cd projects
 
 git clone https://${username}:${password}@github.com/operationspark/circularity
