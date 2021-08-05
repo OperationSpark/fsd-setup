@@ -81,6 +81,7 @@ Enter your username and your password.
 
 1. Go to <a href=https://gitpod.io/workspaces>https://gitpod.io/workspaces</a>
 2. Click on the Pin icon next to your workspace (see red arrows below). If your workspace is not showing, click the filter button and select all (see the blue arrow below) and then pin your workspace.
+### NOTE: This step is CRITICAL to make sure that your workspace does not automatically delete after a period of activity. Deleted workspaces are not able to be recovered, so pinning it makes sure your workspace will still be there everytime you login.
 
 <img src="img/pin-workspace.png">
 
