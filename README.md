@@ -95,9 +95,13 @@ Enter your username and your password.
 
 ## To Share your Code
 
-Workspace --> Share Running Workspace
+Make sure that your workspace has 'Share'checked off to enable sharing mode.
 
-<img style="width: 400px" src="img/share-workspace.png">
+<img style="width: 400px" src="img/shareWorkspace.png">
+
+Then, copy your workspace's URL (highlighted below) to share. You must actively have your workspace open in order for the link shared to be accessed by someone else. 
+
+<img style="width: 400px" src="img/shareURL.png">
 
 ## Set up Auto Save
 
