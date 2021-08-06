@@ -81,6 +81,7 @@ Enter your username and your password.
 
 1. Go to <a href=https://gitpod.io/workspaces>https://gitpod.io/workspaces</a>
 2. Click on the Pin icon next to your workspace (see red arrows below). If your workspace is not showing, click the filter button and select all (see the blue arrow below) and then pin your workspace.
+### NOTE: This step is CRITICAL to make sure that your workspace does not automatically delete after a period of activity. Deleted workspaces are not able to be recovered, so pinning it makes sure your workspace will still be there everytime you login.
 
 <img src="img/pin-workspace.png">
 
@@ -95,9 +96,13 @@ Enter your username and your password.
 
 ## To Share your Code
 
-Workspace --> Share Running Workspace
+Make sure that your workspace has 'Share'checked off to enable sharing mode.
 
-<img style="width: 400px" src="img/share-workspace.png">
+<img style="width: 400px" src="img/shareWorkspace.png">
+
+Then, copy your workspace's URL (highlighted below) to share. You must actively have your workspace open in order for the link shared to be accessed by someone else. 
+
+<img style="width: 400px" src="img/shareURL.png">
 
 ## Set up Auto Save
 
