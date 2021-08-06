@@ -7,8 +7,8 @@ printf "\n"
 if test -e projects; then
     rm -rf projects
 fi
-mkdir projects
 
+mkdir projects
 cd projects
 
 git clone https://${username}:${password}@github.com/operationspark/circularity
