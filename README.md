@@ -17,11 +17,6 @@ Click here to open a new browser tab and create create a new GitHub repository:
 
 ### NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forwarded to the _create new repository_ page.
 
-Follow these steps and see the screenshot below to create a new repository.
-
-**Click to enlarge image**
-<img src="img/create-repo.png">
-
 1. On the Create New Repository page, in the box for **Repository name**, name the repository like:
 
     `your-github-username.github.io`
@@ -33,9 +28,12 @@ Follow these steps and see the screenshot below to create a new repository.
 
 3. Select the **Public** radio button to allow anyone to see this repository.
 
-4. Check the **Initialize this repository with a README** box.
+4. Check the **Add a README file** box.
     
-5. Double check that you have followed these instructions properly. Then click **Create Repository** **(See F)**.
+5. Double check that you have followed these instructions properly. **_Your screen should match up with the image below._** Then click the green **Create Repository**.
+
+**Click to enlarge image**
+<img src="img/create-repo.png">
 
 Awesome, you created your repository!
 
