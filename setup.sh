@@ -18,8 +18,12 @@ git clone https://github.com/operationspark/bouncing-box
 if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer || ! test -e bouncing-box || ! test -e circularity; then
   printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
 else
+  #check for existing project-instructions folder
+  if ! test -e circularity then
+    mkdir ../project-instructions
+  fi
+
   #READMEs
-  mkdir ../project-instructions
   cp first-website-hs/README.md ../project-instructions/first-website.md
   cp portfolio-hs/README.md ../project-instructions/portfolio.md
   cp platformer/README.md ../project-instructions/platformer.md
