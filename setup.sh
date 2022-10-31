@@ -19,7 +19,8 @@ if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer 
   printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
 else
   #check for existing project-instructions folder
-  if ! test -e circularity then
+  if ! test -e project-instructions
+  then
     mkdir ../project-instructions
   fi
 
