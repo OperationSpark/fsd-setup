@@ -2,6 +2,7 @@
 
 printf "\n"
 
+# Delete projects folder if one already exists, make/remake and cd into projects dir
 if test -e projects; then
   rm -rf projects
 fi
@@ -9,6 +10,7 @@ fi
 mkdir projects
 cd projects
 
+# Clone all FSD projects into projects directory
 git clone https://github.com/operationspark/first-website-hs
 git clone https://github.com/operationspark/portfolio-hs
 git clone https://github.com/operationspark/circularity
@@ -18,13 +20,12 @@ git clone https://github.com/operationspark/bouncing-box
 if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer || ! test -e bouncing-box || ! test -e circularity; then
   printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
 else
-  #check for existing project-instructions folder
-  if ! test -e project-instructions
-  then
+  # Check for existing project-instructions folder, creates directory if missing
+  if ! test -e project-instructions; then
     mkdir ../project-instructions
   fi
 
-  #READMEs
+  # Copy READMEs for projects into project-instructions dir
   cp first-website-hs/README.md ../project-instructions/first-website.md
   cp portfolio-hs/README.md ../project-instructions/portfolio.md
   cp platformer/README.md ../project-instructions/platformer.md
