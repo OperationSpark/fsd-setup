@@ -2,6 +2,14 @@
 
 printf "\n"
 
+# Delete vscode folder if one already exists, make or remake vscode folder
+if test -e .vscode; then
+  rm -rf .vscode
+fi
+
+mkdir .vscode
+mv ./fsd-setup/settings.json .vscode
+
 # Delete projects folder if one already exists, make/remake and cd into projects dir
 if test -e projects; then
   rm -rf projects
