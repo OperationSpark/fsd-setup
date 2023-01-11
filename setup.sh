@@ -22,7 +22,7 @@ cd projects
 git clone https://github.com/operationspark/first-website-hs
 git clone https://github.com/operationspark/portfolio-hs
 git clone https://github.com/operationspark/circularity
-git clone https://github.com/operationspark/platformer
+git clone https://github.com/operationspark/platformer-neo platformer
 git clone https://github.com/operationspark/bouncing-box
 
 if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer || ! test -e bouncing-box || ! test -e circularity; then
@@ -46,7 +46,6 @@ else
   #platformer
   cd platformer
   rm -rf .git* .master
-  bower install
 
   #bouncing-box
   cd ../bouncing-box
