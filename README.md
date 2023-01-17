@@ -92,7 +92,7 @@ With your workspace open, copy the following commands one at a time and paste th
 
 <img style="width: 400px" src="img/install-live-server.png">
 
-1. Install Live Server (see above). Choose the extension that has 65K+ downloads.
+1. Install the `Live Server` extension (see above). The extension you should install is the one authored by **_ritwickdey_**.
 2. Right Click on the `index.html` file of the project you are working on and select "Preview with Live Server"
 
 ## To Share your Code
