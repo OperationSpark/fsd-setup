@@ -10,6 +10,9 @@ fi
 mkdir .vscode
 mv ./fsd-setup/settings.json .vscode
 
+mkdir scripts
+mv ./fsd-setup/get-readmes.sh scripts
+
 # Delete projects folder if one already exists, make/remake and cd into projects dir
 if test -e projects; then
   rm -rf projects
