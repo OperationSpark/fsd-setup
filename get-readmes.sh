@@ -1,10 +1,18 @@
 #!/bin/bash
 
+# this script will re-download project insctructions so that up-to-date instructions can be readily accessed
+# to run this script, copy and paste the two following lines into your gitpod terminal (don't copy the '#' symbol)
+
+# chmod +x scripts/get-readmes.sh
+# ./scripts/get-readmes.sh
+
 printf "\n"
 
 if test -e project-instructions; then
     rm -rf project-instructions
 fi
+
+mkdir project-instructions
 
 mkdir temp-projects
 cd temp-projects
