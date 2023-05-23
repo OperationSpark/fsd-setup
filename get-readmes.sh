@@ -35,5 +35,7 @@ else
     cp circularity/README.md ../project-instructions/circularity.md
 
     cd ..
-    rm -rf temp-projects
 fi
+
+# delete the temp-projects folder
+rm -rf temp-projects
