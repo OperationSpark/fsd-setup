@@ -44,7 +44,7 @@ else
   cp circularity/README.md ../project-instructions/circularity.md
 
   # add images used in READMEs into project-instructions/img folder
-  cd project-instructions
+  cd ../project-instructions
   mkdir img
 
   cp first-website-hs/img/gitpod-create-new-file.png ../project-instructions/img
@@ -58,7 +58,7 @@ else
 
   cp circularity/img/screenBounds.png ../project-instructions/img
 
-  cd ..
+  cd ../projects
 
   #Cleanup first website and portfolio
   rm -rf first-website-hs portfolio-hs
