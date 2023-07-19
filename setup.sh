@@ -49,6 +49,7 @@ else
 
   cp ../projects/first-website-hs/img/gitpod-create-new-file.png ../project-instructions/img
   cp ../projects/first-website-hs/img/gitpod-name-new-file.png ../project-instructions/img
+  cp ../projects/first-website-hs/img/second-shot.png ../project-instructions/img
   cp ../projects/first-website-hs/img/gitpod-toggle-preview.png ../project-instructions/img
 
   cp ../projects/bouncing-box/img/bouncing-box.gif ../project-instructions/img
