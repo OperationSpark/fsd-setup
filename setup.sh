@@ -43,6 +43,20 @@ else
   cp bouncing-box/README.md ../project-instructions/bouncing-box.md
   cp circularity/README.md ../project-instructions/circularity.md
 
+  # add images used in READMEs into project-instructions/img folder
+  mkdir project-instructions/img
+
+  cp first-website-hs/img/gitpod-create-new-file.png ../project-instructions/img
+  cp first-website-hs/img/gitpod-name-new-file.png ../project-instructions/img
+  cp first-website-hs/img/gitpod-toggle-preview.png ../project-instructions/img
+
+  cp bouncing-box/img/bouncing-box.gif ../project-instructions/img
+  cp bouncing-box/img/collisionDetection.png ../project-instructions/img
+  cp bouncing-box/img/changeOfSpeed.png ../project-instructions/img
+  cp bouncing-box/img/wiggle_bug.gif ../project-instructions/img
+
+  cp circularity/img/screenBounds.png ../project-instructions/img
+
   #Cleanup first website and portfolio
   rm -rf first-website-hs portfolio-hs
 
