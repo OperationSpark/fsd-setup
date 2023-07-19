@@ -47,16 +47,16 @@ else
   cd ../project-instructions
   mkdir img
 
-  cp first-website-hs/img/gitpod-create-new-file.png ../project-instructions/img
-  cp first-website-hs/img/gitpod-name-new-file.png ../project-instructions/img
-  cp first-website-hs/img/gitpod-toggle-preview.png ../project-instructions/img
+  cp ../projects/first-website-hs/img/gitpod-create-new-file.png ../project-instructions/img
+  cp ../projects/first-website-hs/img/gitpod-name-new-file.png ../project-instructions/img
+  cp ../projects/first-website-hs/img/gitpod-toggle-preview.png ../project-instructions/img
 
-  cp bouncing-box/img/bouncing-box.gif ../project-instructions/img
-  cp bouncing-box/img/collisionDetection.png ../project-instructions/img
-  cp bouncing-box/img/changeOfSpeed.png ../project-instructions/img
-  cp bouncing-box/img/wiggle_bug.gif ../project-instructions/img
+  cp ../projects/bouncing-box/img/bouncing-box.gif ../project-instructions/img
+  cp ../projects/bouncing-box/img/collisionDetection.png ../project-instructions/img
+  cp ../projects/bouncing-box/img/changeOfSpeed.png ../project-instructions/img
+  cp ../projects/bouncing-box/img/wiggle_bug.gif ../project-instructions/img
 
-  cp circularity/img/screenBounds.png ../project-instructions/img
+  cp ../projects/circularity/img/screenBounds.png ../project-instructions/img
 
   cd ../projects
 
