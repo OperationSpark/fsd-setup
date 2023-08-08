@@ -2,6 +2,19 @@
 
 printf "\n"
 
+# create required html and css files
+if ! test -e index.html; then
+  touch index.html
+fi
+
+if ! test -e portfolio.html; then
+  touch portfolio.html
+fi
+
+if ! test -e style.css; then
+  touch style.css
+fi
+
 # Delete vscode folder if one already exists, make or remake vscode folder
 if test -e .vscode; then
   rm -rf .vscode
