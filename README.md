@@ -2,6 +2,17 @@
 
 Below, you will find instructions for creating a github repository and setting up your Gitpod workspace. Read all instructions carefully before moving on. If you get stuck, encounter an issue, or simply need help, reach out to your instructor immediately.
 
+**Table of Contents**
+
+- [Step 0 - Prerequisites](#0-pre-requisites)
+- [Step 1 - Create a GitHub Repository](#1-create-a-github-repository)
+- [Step 2 - Login to Gitpod using your GitHub Account](#2-login-to-gitpod-using-your-github-account)
+- [Step 3 - Create your Gitpod Workspace](#3-create-your-gitpod-workspace)
+- [Step 4 - Install Your Projects](#4-install-your-projects)
+- [Step 5 - Pin Your Workspace](#5-pin-your-workspace)
+
+---
+
 ## 0) Pre-requisites:
 
 Before continuing on to the next steps, make sure that you have done the following:
