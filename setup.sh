@@ -20,11 +20,16 @@ if test -e .vscode; then
   rm -rf .vscode
 fi
 
+# Delete scripts folder if one already exists, make or remake scripts folder
+if test -e scripts; then
+  rm -rf scripts
+fi
+
 mkdir .vscode
-mv ./fsd-setup/settings.json .vscode
+cp ./fsd-setup/settings.json .vscode
 
 mkdir scripts
-mv ./fsd-setup/get-readmes.sh scripts
+cp ./fsd-setup/get-readmes.sh scripts
 
 # Delete projects folder if one already exists, make/remake and cd into projects dir
 if test -e projects; then
