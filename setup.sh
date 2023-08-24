@@ -42,7 +42,21 @@ git clone https://github.com/operationspark/platformer-neo platformer
 git clone https://github.com/operationspark/bouncing-box
 
 if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer || ! test -e bouncing-box || ! test -e circularity; then
-  printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n-------------------IMPORTANT!! READ THIS--------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------\n"
+  printf "\nFAILURE: Some projects could not be accessed on GitHub\n"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------\n"
+  printf "\nYou likely haven't joined the Operation Spark github team\n"
+  printf "\nCheck with your teacher to make sure that you been invited to the GitHub team\n"
+  printf "\nIf you do have an invitation, you can accept it at https://github.com/operationSpark/ and then re-run the previous command from the setup directions again\n"
+  printf "\n------------------------------------------------------------\n"
+  printf "\n------------------------------------------------------------\n\n"
 else
   # Check for existing project-instructions folder, creates directory if missing
   if ! test -e project-instructions; then
