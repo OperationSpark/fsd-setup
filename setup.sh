@@ -20,11 +20,16 @@ if test -e .vscode; then
   rm -rf .vscode
 fi
 
+# Delete scripts folder if one already exists, make or remake scripts folder
+if test -e scripts; then
+  rm -rf scripts
+fi
+
 mkdir .vscode
-mv ./fsd-setup/settings.json .vscode
+cp ./fsd-setup/settings.json .vscode
 
 mkdir scripts
-mv ./fsd-setup/get-readmes.sh scripts
+cp ./fsd-setup/get-readmes.sh scripts
 
 # Delete projects folder if one already exists, make/remake and cd into projects dir
 if test -e projects; then
@@ -42,7 +47,21 @@ git clone https://github.com/operationspark/platformer-neo platformer
 git clone https://github.com/operationspark/bouncing-box
 
 if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer || ! test -e bouncing-box || ! test -e circularity; then
-  printf "\nFAILURE: Some projects could not be accessed on GitHub. Please run the script again."
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n-------------------IMPORTANT!! READ THIS--------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------\n"
+  printf "\nFAILURE: Some projects could not be accessed on GitHub and have not been installed\n"
+  printf "\n------------------------------------------------------------"
+  printf "\n------------------------------------------------------------\n"
+  printf "\nThe most likely reason for this failure is that you have not joined the Operation Spark GitHub team\n"
+  printf "\nCheck with your teacher to make sure that you have been invited to the GitHub team\n"
+  printf "\nIf you do have an invitation, you can accept it at https://github.com/operationSpark/ and then re-run the previous command from the setup directions again\n"
+  printf "\n------------------------------------------------------------\n"
+  printf "\n------------------------------------------------------------\n\n"
 else
   # Check for existing project-instructions folder, creates directory if missing
   if ! test -e project-instructions; then
