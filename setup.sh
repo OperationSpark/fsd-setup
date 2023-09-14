@@ -56,7 +56,7 @@ if ! test -e first-website-hs || ! test -e portfolio-hs || ! test -e platformer 
   printf "\n------------------------------------------------------------"
   printf "\n------------------------------------------------------------\n"
   printf "\nFirst, check that you have added integrations between gitpod and github at https://gitpod.io/integrations\n"
-  printf "\nIf you did not already have integrations set up, you can re-run the previous command after connection gitpod with GitHub\n"
+  printf "\nIf you did not already have integrations set up, you can re-run the previous command after connecting gitpod with GitHub\n"
   printf "\n------------------------------------------------------------\n"
   printf "\nIf you have already added integrations, it is likely that you have not joined the Operation Spark GitHub team\n"
   printf "\nCheck with your teacher to make sure that you have been invited to the GitHub team\n"
